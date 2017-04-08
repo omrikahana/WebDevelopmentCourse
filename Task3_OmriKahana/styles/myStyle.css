@@ -1,0 +1,163 @@
+body 
+{
+    direction:rtl;
+    background-color: #C6C7B8;
+}
+#container{
+    width:960px;
+    min-height: 540px;
+    margin: 0 auto;
+    font-family:Alef;
+    font-size: 14pt;
+    background-image:url('../images/view.jpg');
+    background-size: 960px;
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-position-y: center;
+    -webkit-box-shadow: 2px 2px 6px 1px #646372;
+    box-shadow: 2px 2px 6px 1px #646372;
+}
+
+
+header {
+    width: 400px;
+    height: 50px;
+    font-weight: bold;
+    text-align:center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    font-size:48pt;
+    color: #F14E6D;
+    margin: 10px 270px 20px 0px;
+}
+
+nav ul {
+     list-style-type: none;
+        margin-right: 195px;
+}
+    nav ul li {
+        display: inline-block;
+        float: right;
+    }
+        nav ul li a  {
+            display: block;
+            width: 130px;
+            height: 30px;
+            margin: 3px;
+            padding-top: 10px;
+            background-color: #5CCF82;
+            color: #F14E6D;
+            text-align: center;
+            text-decoration:none;
+            border-radius: 15px 15px 0px 0px;
+        }
+
+        #education, #hobbies, #job, #about {
+            display: block;
+            width: 130px;
+            height: 30px;
+            margin: 3px;
+            padding-top: 10px;
+            background-color: #C6C7B8;
+            color: #F14E6D;
+            text-align: center;
+            text-decoration: none;
+             border-radius: 15px 15px 0px 0px;
+        }
+        
+nav ul li a:hover {
+
+    color: #F07C2B;
+}
+nav ul li a:active {
+    background-color: #C6C7B8;
+}
+
+section{
+    width: 538px;
+    height: 300px;
+    margin-right: 198px;
+    background-color: #C6C7B8;
+    margin-top: 63px;
+}
+section p {
+    display: block;
+    padding: 50px;
+    color: #F14E6D;
+    font-size: 12pt;
+    line-height: 25px;
+
+}
+
+#hobby ul {
+    list-style-type: none;
+    padding: 50px;
+}
+
+#hobby ul li {
+    display: block;
+    color: #F14E6D;
+    font-size: 12pt;
+    line-height: 25px;
+}
+
+footer{
+    width: 538px;
+    height: 33px;
+    background-color: #C6C7B8;
+     margin-right: 198px;
+     margin-top: 5px;
+-webkit-transition: all 0.5s ease-in;
+-moz-transition: all 0.5s ease-in;
+-ms-transition: all 0.5s ease-in;
+-o-transition: all 0.5s ease-in;
+transition: all 0.5s ease-in;
+
+}
+footer:hover{
+    height: 50px;
+    padding-top: 15px;
+    background-color:#5CCF82;
+}
+
+footer ul {
+    list-style-type: none;  
+    padding-left: 67px;
+    padding-top: 3px;
+}
+footer ul li a{
+    padding: 5px;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+footer ul li, footer ul div{
+    display: inline-block;
+    float:left;
+}
+footer ul li {
+    margin-right: 10px;
+    font-size: 10pt;
+    margin-top: 7px;
+}
+
+footer ul div a img{
+    width: 26px;
+    height: 26px;
+    border-radius: 5px;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+footer ul div a img:hover{
+    height:30px;
+    width:30px;
+    margin:5px;
+}
+
+footer ul li a:hover{
+    color: #F07C2B;
+}
+
