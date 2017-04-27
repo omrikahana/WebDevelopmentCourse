@@ -1,0 +1,131 @@
+body 
+{
+    direction:rtl;
+    font-family:Alef;
+}
+#container {
+    margin: 0 auto;
+    width: 960px;
+    height: 1400px;
+    
+    background-image: url("../images/back.png");
+    background-repeat:no-repeat;
+}
+header{
+    width:960px;
+    margin:0 auto;
+}
+header h1{
+    font-weight:bold;
+    font-size:60pt;
+    text-align:center;
+    padding: 10px;
+}
+header h2{
+    font-size:26pt;
+}
+header h2 span{
+    color: #BC3A70;
+}
+header h2:first-child{
+    padding-top: 130px;
+    padding-right:200px;
+}
+header h2:last-child{
+    padding-right:358px;
+}
+#topics{
+    position:relative;
+    top: 310px;
+    right:120px;
+}
+#topics div{
+    width:20px;
+    height:10px;
+    transform: rotate(-45deg);
+    display: inline-block;
+    color: #D44C18;
+    font-weight:bold;
+    font-size: 20pt;
+}
+#topics div:nth-child(2), div:nth-child(3){
+    margin-right:235px;
+}
+#info{
+    font-size:14pt;
+    position:relative;
+    top: 515px;
+    padding-right:170px;
+    padding-top:20px;
+    padding-bottom:20px;
+    text-align:right;
+    line-height:1.5;
+    background-color: #1DA38E;
+    border-radius:20px;
+}
+
+#info h3 a{
+    font-size:16pt;
+    font-weight:bold;
+    color:black;
+    text-decoration: none;
+}
+#info h3 span{
+    color: #BC3A70;
+}
+#info p span{
+    font-weight:bold;
+}
+form{
+    background-color:#D44C18;
+    border-radius:20px;
+    padding:10px 170px 10px 0;
+    text-align:right;
+    position:relative;
+    top:530px;
+}
+form label{
+    margin-top:10px;
+}
+form label{
+    display: inline-block;
+    list-style-type:none;
+    padding-left:10px;
+}
+form input{
+    padding: 3px 5px 3px 5px;
+    margin-top:7px;    
+}
+form p{
+    font-weight:bold;
+    font-size:14pt;
+}
+#info div, #info p{
+    display:inline-block;
+}
+#facebook{
+    background-image:url(../images/logos.png);
+    width:50px;
+    height:50px;
+    background-position-x:151px;
+    background-position-y:center;
+    margin: 0 50px 0 10px;
+}
+#youtube{
+    background-image:url(../images/logos.png);
+    width:50px;
+    height:35px;
+    background-position-x:96px;
+    background-position-y:47px;
+    margin-left:10px;
+    margin-bottom:7px;
+}
+#telem{
+    background-image:url(../images/logos.png);
+    width:48px;
+    height:50px;
+    background-position-x:46px;
+    background-position-y:center;
+}
+
+
