@@ -1,0 +1,238 @@
+body 
+*{
+    direction:rtl;
+    font-family: 'Assistant', sans-serif;
+    color: #393833;
+    font-size:12pt;
+}
+#container{
+    margin:0 auto;
+    width:960px;
+    background-color: #F4F4F2;
+    padding: 0 5px 250px 5px;
+}
+
+/*עיצוב כותרת האתר*/
+
+#mainhead {
+    display:block;
+    text-align: center;
+    width:400px;
+    margin-right:350px;
+    padding-top: 25px;
+}
+#mainhead h1{
+    font-size: 36pt;
+    margin: 10px 0 10px 0;
+}
+#mainhead h2{
+    font-size:14pt;
+}
+/*עיצוב לתפריט הניווט כולל את הלוגו, קישורים לדפים וצור קשר בתחתית*/
+#navhead {
+    display:inline-block;
+    width: 170px;
+    border-left:1px solid #5A5952;
+    margin-top:-75px;
+    position:absolute;
+}
+#navhead #logo{
+    width:140px;
+    height:120px;
+    background-image:url(../images/logo.png);
+    background-size:120px;
+    background-repeat:no-repeat;
+    background-position-x:3px;
+    margin-right:5px;
+}
+#nav1 ul{
+        list-style-type:none;
+        margin-top: 10px;
+}
+#nav1 ul li{
+    display: block;
+}
+#nav1 ul  a{
+    display:block;
+    width:160px;
+    padding: 5px 2px 5px 0;
+    text-decoration:none;
+    border-top: 1px solid #5A5952;
+}
+#nav1 ul li a:hover{
+    background-color: #FFE20B;
+}
+#nav1 ul li a:active{
+    background-color: #E2B819;
+}
+#nav1 ul #current a{
+    background-color: #FFE20B;
+}
+#nav1 ul li:last-child a{
+    border-bottom: 1px solid #5A5952;
+}
+
+/*עיצוב ספציפי של דיב ה-צור קשר*/
+#contact{
+    display:block;
+    border-bottom:1px solid #5A5952;
+    width: 160px;
+    line-height:1.3;
+    padding-bottom:5px;
+    margin-top:250px;
+    margin-bottom:50px;
+}
+#contact h3{
+    margin-bottom:20px;  
+}
+#contact p{
+    width:180px;
+}
+
+/*החלק המרכזי בדף הראשי  */
+#aboutme{
+    display:inline-block;
+}
+#sun {
+    position:relative;
+    background-image: url(../images/sun.png);
+    background-size: 250px;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    top: 20px;
+    right:420px;
+}
+
+#aboutme h2, #aboutme p{
+    position:relative;
+    line-height:1.5;
+    right:380px;
+    margin-bottom:10px;
+}
+#aboutme h2{
+    font-weight:bold;
+    font-size:14pt;
+    margin-top:30px;
+}
+#aboutme p span{
+    font-weight:bold;
+}
+
+/*עימוד כללי של דפי תוכן  */
+
+#mainpart, #mainpartinfo, #mainpartpost{
+    display:inline-block;
+    position:relative;
+    right:200px;
+    top:60px;
+}
+#mainpart h1, #maininfo h1, #mainpost h1{
+    font-size:14pt;
+    font-weight:bold;
+    text-align:right;
+    margin-bottom:30px;
+}
+
+#maindesign div h2, #maininfo div h2, #mainpost div h2{
+    margin-bottom:15px;
+}
+ #paradesign{
+     display:block;
+     margin-top:30px;
+     width:750px;
+ }
+ #paradesign p{
+     margin-top:15px;
+     line-height:1.5;
+ }
+
+/*החלק המרכזי בדף מבוא לתקש"ח  */
+
+#maindesign img,#maindesign iframe{
+    width: 200px;
+    height: 160px;
+    -webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-ms-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+}
+ #horatsnew:hover,  #horatsorigin:hover,  #maindesign iframe:hover{
+    z-index:1;
+}
+ #horatsnew:hover{
+    transform: scale(3);
+}
+ #horatsorigin:hover{
+    transform:translateX(50px) scale(1.5);
+}
+ #maindesign iframe:hover{
+      transform:translateX(-50px) scale(1.5);
+}
+
+ #maindesign div{
+    display:inline-block;
+    margin-left: 30px;
+}
+
+ /*החלק המרכזי בדף ארגון וייצוג ידע  */
+
+#maininfo h2{
+    margin-right:170px;
+}
+#mainpartinfo #omerimg{
+     width:350px;
+     height:248px;
+     margin-right:170px;
+         -webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-ms-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+}
+#mainpartinfo #omerimg:hover{
+    transform: scale(2);
+}
+ 
+#audioinfo audio{
+    margin-right:195px;
+    margin-bottom:-15px;
+}
+/*החלק המרכזי בדף הגראפיקה הממוחשבת  */
+
+#mainpartpost{
+    top: 35px;
+}
+#craza1div{
+    margin-right:125px;
+    margin-left:30px;
+}
+#mainpost div{
+    display:inline-block;
+}
+#mainpost h1 {
+        font-size: 14pt;
+        font-weight: bold;
+        text-align: right;
+        margin-bottom: 30px;
+}
+
+#mainpartpost #craza1, #mainpartpost #craza2{
+     width:200px;
+     height:283px;
+         -webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-ms-transition: all 1s ease;
+-o-transition: all 1s ease;
+transition: all 1s ease;
+}
+#mainpartpost #craza1:hover, #mainpartpost #craza2:hover{
+    transform: scale(2);
+}
+
+
+
+
+
+
