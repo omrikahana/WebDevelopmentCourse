@@ -17,7 +17,7 @@ header>nav{
     float:right;
 
 }
-/*עיצוב תפריט ניווט*/
+/*ֳ²ֳ©ֳ¶ֳ¥ֳ¡ ֳ÷ֳ´ֳ¸ֳ©ֳ¨ ֳ°ֳ©ֳ¥ֳ¥ֳ¨*/
 ul{
     list-style-type: none;
   
@@ -51,7 +51,7 @@ float:right;
    text-decoration:underline;
 }
 
-/*עיצוב תת תפריט*/
+/*ֳ²ֳ©ֳ¶ֳ¥ֳ¡ ֳ÷ֳ÷ ֳ÷ֳ´ֳ¸ֳ©ֳ¨*/
 #mainNav>ul>li ul {
     display: none;
     position: absolute;
@@ -107,7 +107,7 @@ float:right;
     right: -16px;
     display: inline-block;
     }
-/*תת-תת תפריט*/
+/*ֳ÷ֳ÷-ֳ÷ֳ÷ ֳ÷ֳ´ֳ¸ֳ©ֳ¨*/
 
 #roll ul{
     display:none;
@@ -123,15 +123,16 @@ float:right;
 }
 
 
-/*הגדרת זיהוי העמוד שעליו המשתמש נמצא*/
+/*ֳ₪ֳ¢ֳ£ֳ¸ֳ÷ ֳ¦ֳ©ֳ₪ֳ¥ֳ© ֳ₪ֳ²ֳ®ֳ¥ֳ£ ֳ¹ֳ²ֳ¬ֳ©ֳ¥ ֳ₪ֳ®ֳ¹ֳ÷ֳ®ֳ¹ ֳ°ֳ®ֳ¶ֳ */
 
 #mainNav .selected{
  color: white;
  border-bottom: 2px solid black;
    cursor: not-allowed;
+    z-index=1;
 }
 
- /*ייצוג אינטראקטיבי*/
+ /*ֳ©ֳ©ֳ¶ֳ¥ֳ¢ ֳ ֳ©ֳ°ֳ¨ֳ¸ֳ ֳ·ֳ¨ֳ©ֳ¡ֳ©*/
  #interFotter{
      width:100%;
      z-index:0;
