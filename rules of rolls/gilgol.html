@@ -1,0 +1,261 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>Rules Of Rolls- אופן גלגול רול סושי</title>
+    <meta name="description" content="אתר שמספק מידע אודות הסושי" />
+    <meta name="keywords" content="סושי,מתכונים לסושי, מונחי הסושי, רול אוף רולס, גלגול סושי, גילגול סושי, הכנת סושי, תוספות לסושי, דגים, ירקות, סוגי סושי" />
+    <meta name="author" content="omri, noya & ortal" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="icon" href="images/minisushi.png" type="image/png" sizes="16x16">
+    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Assistant" rel="stylesheet">
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+
+</head>
+<body onload="tab_nav()">
+    <div id="background"></div>
+    <div id="container">
+        <div id="countainer2">
+            <header id="hpHeader">
+                <a class="skip-main" href="#gilgol">דלג לתוכן</a>
+
+                <nav id="mainNav">
+                    <ul>
+                        <li>
+                            <a href="index.html">
+                                <div id="headLogoPic"></div>
+                            </a>
+                        </li>
+                        <li><a href="index.html">דף הבית</a></li>
+                        <li>
+                            <a href="#" class="notActive"> סוגי הסושי ומרכיביו</a>
+                            <ul>
+                                <li><a href="interactiveSushi.html">מילון המונחים</a></li>
+                                <li><a href="#" class="notActive">קומבינציות</a></li>
+                                <li><a href="#" class="notActive">ערכים תזונתיים</a></li>
+                                <li><a href="#" class="notActive">נשים בהריון</a></li>
+                                <li><a href="#" class="notActive">טבעונים וצמחונים</a></li>
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="making.html" class="selected">הכנת הסושי</a>
+                            <ul>
+                                <li><a href="#" class="notActive" id="crool">הכנת האורז</a></li>
+                                <li id="roll">
+                                    <a href="gilgol.html">אופן גלגול הרול</a>
+                                    <ul>
+                                        <li><a href="#" class="notActive">חיתוך הדגים והירקות</a></li>
+                                        <li><a href="#" class="notActive">מאקי</a></li>
+                                        <li><a href="#" class="notActive">פוטומאקי</a></li>
+                                        <li><a href="insideout.html">אינסייד אאוט</a></li>
+                                        <li><a href="#" class="notActive">קונוס</a></li>
+                                        <li><a href="#" class="notActive">גונקאן סושי</a></li>
+                                        <li><a href="#" class="notActive">סושי סנדוויץ</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#" class="notActive">מתכונים</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="notActive">מסעדות</a></li>
+                        <li>
+                            <a href="#" class="notActive">היסטוריה ותרבות</a>
+                            <ul>
+                                <li><a href="#" class="notActive">היסטוריית הסושי</a></li>
+                                <li><a href="#" class="notActive">מנהגי אכילה</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </nav>
+
+            </header>
+
+            <nav class="lehem">
+                <ul>
+                    <li><a href="index.html">דף הבית</a></li>
+                    <li><a href="making.html">הכנת הסושי</a></li>
+                    <li><a href="gilgol.html">אופן גלגול הרול</a></li>
+                </ul>
+
+            </nav>
+
+            <article id="gilgol">
+                <h1 class="pageTitle">אופן גלגול הרול</h1>
+
+                <img src="images/Making-sushi-1024x683.jpg" id="gilgolPic" alt="" style="width:400px; height:250px;" />
+                <p>
+                    סושי טוב כולל אצה טרייה, מעט אורז, והרבה תוספות. <br />
+                    <strong>במדריכים שלפניכם</strong>
+                    נסביר כיצד להכין את סוגי הסושי השונים.
+                </p>
+                <p>
+                    כל שעליכם לעשות הוא לבחור את סוג הסושי, את התוספות המועדפות עליכם
+                    <strong>ולגלגל!</strong>
+                </p>
+            </article>
+
+
+            <section id="gilgoltit">
+                <h2> בחר את הסושי שתרצה לגלגל</h2>
+                <nav id="gilgilNav">
+                    <ul>
+                        <li>
+                            <a id="fotomaki" class="photo notActive" href="#">
+                                <div class="rollName">פוטומאקי</div>
+                                <div class="overlay">
+                                    <div class="text">
+                                        <p >הרול הקלאסי: האורז והתוספות מגולגלים בתוך האצה</p>
+                                    </div>
+                                </div>
+                               
+                            </a>
+                        </li>
+
+                        <li>
+                            <a id="insideOutRoll" class="photo" href="insideout.html">
+                                <div class="rollName">אינסייד אאוט</div>
+                                <div class="overlay">
+                                    <div class="text">
+                                        <p>סושי הפוך: האורז בחוץ והאצה בפנים</p>
+                                    </div>
+                                </div>
+                                
+                            </a>
+                        </li>
+
+                        <li>
+                            <a id="nigri" class="photo notActive" href="#">
+                                <div id="nigritit">ניגרי</div>
+                                <div class="overlay">
+                                    <div class="text">
+                                        <p>פרוסה של דג נא המונחת על גבי אורז</p>
+                                    </div>
+                                </div>
+                                
+                            </a>
+                        </li>
+
+                        <li>
+                            <a id="kunus" class="photo notActive" href="#">
+                                <div id="kunustit">קונוס</div>
+                                <div class="overlay">
+                                    <div class="text">
+                                        <p>רול המגולגל בצורת קונוס</p>
+                                    </div>
+                                </div>
+                                
+                            </a>
+                        </li>
+
+                        <li>
+                            <a id="gonkan" class="photo notActive" href="#">
+                                <div class="rollName">גונקאן סושי</div>
+                                <div class="overlay">
+                                    <div class="text">
+                                        <p>רול סושי המכיל ביצי דגים</p>
+                                    </div>
+                                </div>
+                                
+                            </a>
+                        </li>
+
+                        <li>
+                            <a id="sandwich" class="photo notActive" href="#">
+                                <div id="sandtit">סנדוויץ'</div>
+                                <div class="overlay">
+                                    <div class="text">
+                                        <p>סושי הדומה בצורתו לסנדוויץ כאשר האורז עוטף את המילוי</p>
+                                    </div>
+                                </div>
+                                
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+
+            <article id="choosetop">
+                <h2> בחירת התוספות</h2>
+                <section id="dagim">
+                    <h3>דגים </h3>
+                    <p>
+                        הדג שאתם בוחרים עבור הסושי חייב להיות
+                        <strong> טרי ובאיכות גבוהה.</strong>
+                        <br />
+                        <br />
+                        הדגים הנפוצים ביותר בישראל עבור הסושי הם
+                        <strong>סלמון וטונה,</strong>
+                        אותם ניתן להשיג בכל סופרמרקט או חנות דגים.
+                        <br />
+                        <br />
+                        בכדי להבטיח את טריות הדג אין להשאירו יותר מ-24 שעות במקרר.
+
+                        <ul id="hovericon">
+                            <li id="fishicon">
+                                <a href="#" class="notActive">
+                                    <div id="fish2"></div>
+                                    <div id="arrowfish"></div>
+                                    <div id="fishTit">הכירו עוד סוגי דגים</div>
+                                </a>
+                            </li>
+                        </ul>
+                    </p>
+                </section>
+
+                <section id="vegy">
+                    <h3> ירקות</h3>
+                    <ul id="vegyul">
+                        <li id="vegyicon">
+                            <a href="#" class="notActive">
+                                <div id="vegy2"></div>
+                                <div id="arrowVegy"></div>
+                                <div id="vegyTit">לחיתוך ירקות לסושי</div>
+                            </a>
+                        </li>
+                    </ul>
+                    <p>
+                        בעיקרון, תוכלו לבחור
+                        <strong> כל ירק</strong>
+                        שאתם אוהבים ולשלבו בסושי.
+                        <br />
+                        <br />
+                        לסושי איכותי, יש להקפיד על
+                        <strong>
+                            ירקות טריים בלבד.
+                        </strong>
+                        תוכלו לבקר בדף
+                        <a href="#" class="notActive">הקומבינציות המומלצות </a>
+                        או בדפי
+                        <a href="#" class="notActive">
+                            המתכונים
+                        </a>
+                        על מנת לקבל רעיונות לשילובים מוצלחים.
+                    </p>
+                </section>
+
+
+            </article>
+
+
+            <footer id="gilFooter">
+                <ul id="navFooter">
+                    <li><a href="aboutUs.html">אודות</a></li>
+                    <li><a href="siteMap.html">מפת אתר</a></li>
+                    <li><a href="contactUs.html">צור קשר</a></li>
+                </ul>
+            </footer>
+
+        </div>
+
+    </div>
+    <div id="gilgolFotter" class="greenBg"></div>
+
+</body>
+</html>
