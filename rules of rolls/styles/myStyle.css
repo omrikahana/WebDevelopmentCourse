@@ -3,10 +3,10 @@ body {
     direction: rtl;
     background-image: url('../images/patten_opacity.png');
     background-size: cover;
-    width: 100%;
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
     height: 100px;
-    /*box-shadow: -10px -8px -8px -10px; rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+    margin:0 auto;
+    padding:0;
 }
 
 /*הטמעת פונט גברת לוין*/
@@ -383,10 +383,9 @@ margin-left:50px;
     background-color:#549d9d;
     width:100%;
     height:50px;
-    position:absolute ;
+    position:absolute;
     display:inline-block;
     z-index:-1;
-    margin: 0 auto;
 }
 /*הגדרת מיקום לפוטר בעמוד הבית*/
 #homeFoot{
@@ -582,7 +581,7 @@ footer ul li:first-child:after, footer ul li:nth-child(2):after{
 
 #insideOut h1{
     font-weight: bold;
-    right:-390px;
+    right:45px;
 }
 
 #insideFooter{
@@ -592,7 +591,7 @@ footer ul li:first-child:after, footer ul li:nth-child(2):after{
 /*הגדרה אחידה לכותררת הראשית של כל העמודים*/
 .pageTitle {
     position: relative;
-    right: 50px;
+    right: 45px;
     top: -23px;
     font-family: Assistant;
     font-size: 14pt;
@@ -741,6 +740,7 @@ footer ul li:first-child:after, footer ul li:nth-child(2):after{
     right: 35px;
     /*padding-bottom:7px;*/
     /*top: -30px;*/
+    z-index:1;
 }
 
 /*איורים של סוגי הסושי השונים*/
@@ -756,7 +756,6 @@ footer ul li:first-child:after, footer ul li:nth-child(2):after{
     top:146px;
     
 }
-
 
 #nigri {
     background-image: url('../images/nigri.png');
@@ -780,7 +779,7 @@ footer ul li:first-child:after, footer ul li:nth-child(2):after{
     position:relative;
     top: 150px;
     right: 75px;
-
+     z-index:1;
 }
 
 #kunus {
@@ -809,6 +808,7 @@ footer ul li:first-child:after, footer ul li:nth-child(2):after{
     position:relative;
     top: 200px;
     right: 45px;
+     z-index:1;
 }
 
 #gonkan {
@@ -846,6 +846,7 @@ footer ul li:first-child:after, footer ul li:nth-child(2):after{
     position:relative;
     right: 65px;
     top: 190px;
+     z-index:1;
 }
 
 #gilgoltit1 h2{
@@ -971,7 +972,7 @@ transform: scale(1.1,1.1);
 
 }
 
-#fish2:hover, #fish2:focus{
+a:hover #fish2 , a:focus #fish2 {
     background-position-x:20px;
 }
 
@@ -1055,7 +1056,7 @@ color: black;
     width: 147px;
 }
 
-#vegy2:hover{
+a:hover #vegy2,  a:focus #vegy2{
      transform: scale(1.1,1.1);
 }
 
@@ -1559,7 +1560,7 @@ margin-left:50px;
     top:40px;
     right:20px;
 }
-#know ul li:nth-child(1):hover #cook, #know ul li:nth-child(1):focus #cook{
+#know ul li:nth-child(1) a:hover #cook, #know ul li:nth-child(1) a:focus #cook{
     background-position-x:0px;
     transform:rotate(0deg);
 }
@@ -1576,7 +1577,7 @@ margin-left:50px;
     top: 75px;
     right: 18px;
 }
-#know ul li:nth-child(2):hover #gilgol1, #know ul li:nth-child(2):focus #gilgol1{
+#know ul li:nth-child(2) a:hover #gilgol1, #know ul li:nth-child(2) a:focus #gilgol1{
        transform: scale(1.1,1.1)
 }
 
@@ -1621,7 +1622,7 @@ position:relative;
     right: -3px;
     top: 40px;
 }
-#know ul li:nth-child(3):hover #cookRice, #know ul li:nth-child(3):focus #cookRice{
+#know ul li:nth-child(3) a:hover #cookRice, #know ul li:nth-child(3) a:focus #cookRice{
         transform: scale(1.1,1.1);
 
 }
@@ -1853,7 +1854,7 @@ input[type=text]:focus {
 
 #Send{
         background-color: #549d9d;
-    border: none;
+    border: 2px solid white;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -1865,12 +1866,17 @@ input[type=text]:focus {
     font-family:Assistant;
     font-weight: bold;   
 }
+#Send:hover, #Send:focus{
+    border: 2px solid #549d9d;
+    background-color:white;
+    color:black;
+}
 .required{
     color:red;
 }
 #conFooter{
     position:relative;
-    top:165px;
+    top:160px;
 }
 #must{
     margin-right:-65px;
