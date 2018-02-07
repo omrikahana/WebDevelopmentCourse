@@ -12701,7 +12701,7 @@ p.nominalBounds = new cjs.Rectangle(-3220.6,0,6712.3,556.6);
 			} else if (totalTime < 60) {
 				feedbackScreen.myTime.text += " " + "00:" + totalTime.toString();
 			} else if ((totalTime - Math.floor(totalTime / 60) * 60) < 10) {
-				feedbackScreen.myTime.text += " " + Math.floor(totalTime / 60).toString() + ":" + (totalTime - Math.floor(totalTime / 60) * 60).toString();
+				feedbackScreen.myTime.text += " " + Math.floor(totalTime / 60).toString() + ":0" + (totalTime - Math.floor(totalTime / 60) * 60).toString();
 			} else {
 				feedbackScreen.myTime.text += " " + Math.floor(totalTime / 60).toString() + ":" + (totalTime - Math.floor(totalTime / 60) * 60).toString();
 			}
