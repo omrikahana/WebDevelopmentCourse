@@ -1,0 +1,221 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>המצאת הגלגל</h1>
+        </header>
+        <nav id="mainNav">
+            <ul>
+                <li>  <a href="#" class="currentPage"> ראשי </a>  </li>
+                <li>  <a href="#"> היסטוריה </a>  </li>
+                <li>  <a href="#">סוגי גלגלים </a>  </li>
+                <li>  <a href="#"> צור קשר </a>  </li>
+            </ul>
+        </nav>
+        <h2>הכתבות באתר</h2>
+        <ul id="story">
+            <li>  <div> </div><a href="#"> המצאת הגלגל > </a>  </li>
+            <li>  <div> </div><a href="#"> סוגי גלגלים > </a></li>
+            <li>  <div> </div><a href="#"> הידעת?! > </a> </li>
+        </ul>
+
+        <h2>גלריית תמונות</h2>
+
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="images/img1.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/img2.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="images/img3.jpg" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center" id="myDots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+        <h2>
+            מי המציא את הגלגל?
+        </h2>
+        <article id="wheelArticle">
+            <p>
+                מאת: רוני אהרוני
+            </p>
+
+            <p>
+                האם אנו חייבים את המצאת הגלגל לאדם קדמון כלשהו, שהתבונן בחיפושיות זבל אשר יוצרות כבר מיליוני שנים כדור זבל ענקי ומגלגלות אותו אל הקן? האם ייתכן שהוא הבין שאם יצליח לשחזר את המעשה, יוכלו הוא וחבריו להעביר משאות כבדים ממקום למקום?
+            </p>
+            <div id="image1"></div>
+            <p>
+                הגלגל הוא המכונה המוקדמת ביותר מתוך 6 המכונות הפשוטות של העת העתיקה (דוגמאות למכונות פשוטות נוספות הן: מנוף, גלגלת ובורג). את הגלגל המציאו בסוף <span class="myLinks" id="myBtn">תקופת האבן</span>, כנראה כדי לסייע לקַדָרִים ליצור כלים מחֵמָר, בִּמקום לסובב אותם ביד. בגלגלי אָבְנַיִים כאלה השתמשו במֵסוֹפּוֹטַמְיָה (אזור עיראק של ימינו) כבר בשנת 4000 לפני הספירה, כלומר לפני כ-6000 שנה. בשנת 3200 לפני הספירה בנו <span class="myLinks" id="myBtn1">השומרים</span> עגלות עם גלגלים, ולאחר מכן גם רכבי מלחמה שנסחבו על ידי חמורים.
+            </p>
+            <p>
+                כשהחלו בני האדם להעביר גושי אבן ודברים כבדים אחרים (לצורך בנייה למשל), הם הבינו שבאמצעות גזעי עץ הם יוכלו לעשות זאת בקלות רבה יותר. הגזעים הונחו מתחת למשא הכבד, וכשגררו אותו הם הסתובבו ואפשרו למשא להתקדם מבלי שיהיה צורך להרים אותו. מאוחר יותר הבינו שיוכלו ליצור גלגלי עץ ולחברם למשטח שֶׁיָנוּעַ בעזרתם. כך הומצאו העגלות הראשונות. שיפור משמעותי היה רתימת העגלה לבהמת משא שמשכה אותה. ככל שהגלגלים נעשו קלים יותר, כך הטכנולוגיה הלכה והשתכללה, והיעילות של העגלות בנשיאת משאות כבדים השתפרה.
+            </p>
+            <div id="image2">
+                <div id="image2"></div>
+                <p>סימן X בתוך ריבוע</p>
+            </div>
+            <p>
+                הגלגל החל לשמש <span class="myLinks" id="myBtn2">למטרות רבות</span>, כמו לבניית כלי רכב (כרכרות נבנו לראשונה בשנת 2000 לפנה"ס לערך), טחינת התבואה לקמח, הפקת שמן בבית בד ועוד. עם זאת, רק במאה ה-19, בתחילת המהפכה התעשייתית, הפך הגלגל למרכיב מרכזי ונעשה בו שימוש באלפי דרכים ובאין ספור מַנְגְנוֹנִים שונים.
+            </p>
+            <h3>
+                חלקים במבנה הגלגל
+            </h3>
+            <table>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <h4>חישוק</h4><p class="tableP">
+                            חישוק הוא חלקו החיצוני, הטבעתי, של הגלגל. בגלגל חישור, צידו הפנימי של החישוק מחובר במוטות למרכז הגלגל.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>
+                        <h4>חישור</h4><p class="tableP">
+                            חישור הוא מוט (מעץ, מתיל מתכת וכדומה) רדיאלי המחבר את מרכז הגלגל אל היקפו (החישוק). החישורים לרוב מאונכים למרכז הגלגל, בחלק מהגלגלים המודרניים הם משיקים לו.
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>
+                        <h4>צמיג</h4><p class="tableP">
+                            הצְמיג הוא מעטפת גומי טבעתית העוטפת את החישוק. תפקיד הצמיג לספק אחיזת כביש לכלי הרכב, לבלום זעזועים ולהגן על החישוק.
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </article>
+
+    </div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close" onclick="closefunction()">&times;</span>
+            <p>
+                תקופת האבן – תקופה קדומה
+            </p>
+        </div>
+
+    </div>
+
+    <div id="myModal1" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close" onclick="closefunction()">&times;</span>
+            <p>
+                השׁוּמֵרִים - בני עם קדום
+            </p>
+        </div>
+
+    </div>
+
+    <div id="myModal2" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close" onclick="closefunction()">&times;</span>
+            <p>
+                לאורך ההיסטוריה היו לגלגל שימושים שונים. <br /> צפו בסרטון:
+            </p>
+            <iframe width="600" height="400" src="https://www.youtube.com/embed/9nrrxW-r_1g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+
+    // Get the modal
+    var modal = document.getElementById('myModal');
+    var modal1 = document.getElementById('myModal1');
+    var modal2 = document.getElementById('myModal2');
+    // Get the button that opens the modal
+    var btn = document.getElementById("myBtn");
+    var btn1 = document.getElementById("myBtn1");
+    var btn2 = document.getElementById("myBtn2");
+    // When the user clicks on the button, open the modal
+    btn.onclick = function () {
+        modal.style.display = "block";
+    }
+    btn1.onclick = function () {
+        modal1.style.display = "block";
+    }
+    btn2.onclick = function () {
+        modal2.style.display = "block";
+    }
+    // When the user clicks on <span> (x), close the modal
+    function closefunction() {
+        modal.style.display = "none";
+        modal1.style.display = "none";
+        modal2.style.display = "none";
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+        if (event.target == modal || event.target == modal1 || event.target == modal2) {
+            modal.style.display = "none";
+            modal1.style.display = "none";
+            modal2.style.display = "none";
+        }
+    }
+</script>
