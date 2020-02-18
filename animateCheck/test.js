@@ -174,10 +174,10 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/test_atlas_.png?1582046085111", id:"test_atlas_"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1582046085131", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1582046085131", id:"sdk/anwidget.js"},
-		{src:"components/video/src/video.js?1582046085131", id:"an.Video"}
+		{src:"images/test_atlas_.png?1582047652627", id:"test_atlas_"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1582047652641", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1582047652641", id:"sdk/anwidget.js"},
+		{src:"components/video/src/video.js?1582047652641", id:"an.Video"}
 	],
 	preloads: []
 };
