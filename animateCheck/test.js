@@ -154,17 +154,17 @@ p.nominalBounds = new cjs.Rectangle(0,-433.5,1098.2,606);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.theButton},{t:this.thePlayer}]}).wait(1));
 
 	// Layer_2
-	this.myVid = new lib.an_Video({'id': 'myVid', 'src':'videos/finalProject.mp4', 'autoplay':true, 'controls':true, 'muted':false, 'loop':true, 'poster':'images/', 'preload':true, 'class':'video'});
+	this.myVid = new lib.an_Video({'id': 'myVid', 'src':'https://youtu.be/7zhga7DLloI', 'autoplay':true, 'controls':true, 'muted':false, 'loop':true, 'poster':'images/', 'preload':true, 'class':'video'});
 
 	this.myVid.name = "myVid";
-	this.myVid.setTransform(1413.5,360.1,1.9518,1.4638,17.0546,0,0,200,150.2);
+	this.myVid.setTransform(1413.7,360.15,1.9777,1.1823,0,22.0138,13.1026,200,150.2);
 
 	this.timeline.addTween(cjs.Tween.get(this.myVid).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(979.6,574.4,872.6999999999999,489.0000000000001);
+p.nominalBounds = new cjs.Rectangle(979.6,645.1,887.1,418.30000000000007);
 // library properties:
 lib.properties = {
 	id: '34717B80253DFF468A56092302D2D8E0',
@@ -174,10 +174,10 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/test_atlas_.png?1582047652627", id:"test_atlas_"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1582047652641", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1582047652641", id:"sdk/anwidget.js"},
-		{src:"components/video/src/video.js?1582047652641", id:"an.Video"}
+		{src:"images/test_atlas_.png?1582048315532", id:"test_atlas_"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1582048315546", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1582048315546", id:"sdk/anwidget.js"},
+		{src:"components/video/src/video.js?1582048315546", id:"an.Video"}
 	],
 	preloads: []
 };
