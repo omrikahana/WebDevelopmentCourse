@@ -110,7 +110,7 @@ p.draw = _componentDraw;
 	this.instance_1._off = true;
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance,p:{x:0}}]}).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance_1}]},1).to({state:[{t:this.instance,p:{x:925.7}}]},1).wait(1));
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1).to({_off:false},0).wait(1).to({regX:86.3,regY:86.3,x:120.55,y:55.35},0).wait(1).to({x:154.85,y:24.4},0).wait(1).to({x:189.15,y:-6.55},0).wait(1).to({x:223.4,y:-37.55},0).wait(1).to({x:257.7,y:-68.5},0).wait(1).to({x:292,y:-99.45},0).wait(1).to({x:326.3,y:-130.45},0).wait(1).to({x:360.55,y:-161.4},0).wait(1).to({x:394.85,y:-192.35},0).wait(1).to({x:429.15,y:-223.3},0).wait(1).to({x:463.4,y:-254.3},0).wait(1).to({x:497.7,y:-285.25},0).wait(1).to({x:532,y:-316.2},0).wait(1).to({x:566.3,y:-347.2},0).wait(1).to({x:629.25,y:-285.25},0).wait(1).to({x:692.2,y:-223.3},0).wait(1).to({x:755.2,y:-161.4},0).wait(1).to({x:818.15,y:-99.45},0).wait(1).to({x:881.15,y:-37.55},0).wait(1).to({x:944.1,y:24.4},0).wait(1).to({x:1007.1,y:86.3},0).to({_off:true},1).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1).to({_off:false,rotation:NaN},0).wait(1).to({regX:86.3,regY:86.3,rotation:NaN,x:120.55,y:55.35},0).wait(1).to({rotation:NaN,x:154.85,y:24.4},0).wait(1).to({rotation:NaN,x:189.15,y:-6.55},0).wait(1).to({rotation:NaN,x:223.4,y:-37.55},0).wait(1).to({rotation:NaN,x:257.7,y:-68.5},0).wait(1).to({rotation:NaN,x:292,y:-99.45},0).wait(1).to({rotation:NaN,x:326.3,y:-130.45},0).wait(1).to({rotation:NaN,x:360.55,y:-161.4},0).wait(1).to({rotation:NaN,x:394.85,y:-192.35},0).wait(1).to({rotation:NaN,x:429.15,y:-223.3},0).wait(1).to({rotation:NaN,x:463.4,y:-254.3},0).wait(1).to({rotation:NaN,x:497.7,y:-285.25},0).wait(1).to({rotation:NaN,x:532,y:-316.2},0).wait(1).to({rotation:NaN,x:566.3,y:-347.2},0).wait(1).to({rotation:NaN,x:629.25,y:-285.25},0).wait(1).to({rotation:NaN,x:692.2,y:-223.3},0).wait(1).to({rotation:NaN,x:755.2,y:-161.4},0).wait(1).to({rotation:NaN,x:818.15,y:-99.45},0).wait(1).to({rotation:NaN,x:881.15,y:-37.55},0).wait(1).to({rotation:NaN,x:944.1,y:24.4},0).wait(1).to({rotation:NaN,x:1007.1,y:86.3},0).to({_off:true},1).wait(1));
 
 	this._renderFirstFrame();
 
@@ -154,17 +154,17 @@ p.nominalBounds = new cjs.Rectangle(0,-433.5,1098.2,606);
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.theButton},{t:this.thePlayer}]}).wait(1));
 
 	// Layer_2
-	this.myVid = new lib.an_Video({'id': 'myVid', 'src':'https://youtu.be/7zhga7DLloI', 'autoplay':true, 'controls':true, 'muted':false, 'loop':true, 'poster':'images/', 'preload':true, 'class':'video'});
+	this.myVid = new lib.an_Video({'id': 'myVid', 'src':'videos/Static__Ben_El_Pitbull_-_Further_Up_Na_Na_Na_Na_Na_Official_Video.mp4', 'autoplay':true, 'controls':true, 'muted':false, 'loop':true, 'poster':'images/', 'preload':true, 'class':'video'});
 
 	this.myVid.name = "myVid";
-	this.myVid.setTransform(1413.7,360.15,1.9777,1.1823,0,22.0138,13.1026,200,150.2);
+	this.myVid.setTransform(1413.85,360.15,1.401,0.8375,0,22.0137,13.1021,200.1,150.2);
 
 	this.timeline.addTween(cjs.Tween.get(this.myVid).wait(1));
 
 	this._renderFirstFrame();
 
 }).prototype = p = new cjs.MovieClip();
-p.nominalBounds = new cjs.Rectangle(979.6,645.1,887.1,418.30000000000007);
+p.nominalBounds = new cjs.Rectangle(979.6,719.5,754.9999999999999,343.9000000000001);
 // library properties:
 lib.properties = {
 	id: '34717B80253DFF468A56092302D2D8E0',
@@ -174,10 +174,10 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/test_atlas_.png?1582048315532", id:"test_atlas_"},
-		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1582048315546", id:"lib/jquery-3.4.1.min.js"},
-		{src:"components/sdk/anwidget.js?1582048315546", id:"sdk/anwidget.js"},
-		{src:"components/video/src/video.js?1582048315546", id:"an.Video"}
+		{src:"images/test_atlas_.png?1582048757365", id:"test_atlas_"},
+		{src:"https://code.jquery.com/jquery-3.4.1.min.js?1582048757391", id:"lib/jquery-3.4.1.min.js"},
+		{src:"components/sdk/anwidget.js?1582048757391", id:"sdk/anwidget.js"},
+		{src:"components/video/src/video.js?1582048757391", id:"an.Video"}
 	],
 	preloads: []
 };
